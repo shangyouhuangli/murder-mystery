@@ -1,0 +1,14 @@
+{
+  "scripts": [
+    {
+      "id": "rainy-night-mansion",
+      "name": "雨夜山庄谋杀案",
+      "description": "一个雷雨交加的夜晚，富商林老爷在自己的山庄书房中被发现死亡。门窗紧闭，现场看似是一场意外，但受邀前来的侦探却嗅到了谋杀的气息...",
+      "cover": "",
+      "genres": ["推理", "悬疑", "本格"],
+      "playerCount": 4,
+      "difficulty": "简单",
+      "duration": 90
+    }
+  ]
+}
