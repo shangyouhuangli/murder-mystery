@@ -57,10 +57,10 @@ export function getSave(scriptId) {
 }
 
 // 保存游戏进度
-export function saveGame(scriptId, saveData) {
+export function saveGame(scriptId, gameData) {
   const saves = getAllSaves()
   saves[scriptId] = {
-    ...saveData,
+    ...gameData,
     savedAt: new Date().toISOString()
   }
   return saveData(SAVE_KEY, saves)
